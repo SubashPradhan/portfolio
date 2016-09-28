@@ -1,0 +1,52 @@
+body{
+	background-color: yellow;
+}
+
+
+h1{
+	color: red;
+	background-color: black ;
+	text-align: center;
+}
+
+.news{
+	display: inline-block;
+	width: 550px;
+	padding: 5px;
+	border: 5px solid black;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+.leftside{
+	width: 600px;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+	clear: left;
+	margin-right: 10px;
+}
+
+.rightside{
+	width: 600px;
+	padding: 5px;
+	margin: 5px;
+	float: right;
+	clear: right;
+	margin-left: 10px;
+}
+
+.center{
+	width: 600px;
+	padding: 5px;
+	margin: 5px;
+	float:left;
+}
+
+img{
+	width: 550px;
+	height: 350px;
+	margin: 5px;
+	padding: 5px;
+	box-sizing: border-box;
+}

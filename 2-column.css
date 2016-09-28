@@ -1,0 +1,68 @@
+
+h1{
+	color: yellow;
+	text-align: center;
+	background-color: black;
+}
+
+.big-box{
+	width: 1920px;	
+}
+
+
+.leftside{
+	float: left;
+	padding: 5px;
+	width: 650px;
+	margin-left: 250px;	
+}
+
+.rightside{
+	float: right;
+	width: 650px;
+	padding:5px; 
+	margin-right: 250px;	
+}
+
+h3{
+	color: red;
+	font-size: 20px;
+}
+
+.news{
+	width: 600px;
+	margin: 10px;
+	padding: 30px;
+	border: 5px solid black;
+}	
+
+.facebook{
+	background-image: url(facebook.png);
+	height: 64px;
+	width: 64px;
+	position: fixed;
+	top: 60px;
+	left: 50px;
+}
+
+.facebook a{
+	position: fixed;
+	top: 130px;
+	left: 50px;
+		
+}
+
+.twitter{
+	background-image: url(twitter.png);
+	height: 64px;
+	width: 64px;
+	position: fixed;
+	top: 180px;
+	left: 50px;
+}
+
+.twitter a{
+	position: fixed;
+	top: 250px;
+	left: 50px;
+}	

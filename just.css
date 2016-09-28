@@ -1,0 +1,56 @@
+body   {
+	background-image: url("NLBackground.jpg");
+}
+
+h1{
+	color: red; 
+	background-color: black; 
+	text-align: center;
+}
+
+h3{
+	font-family: arial; 
+	color: blue;
+	font-size: 30px;
+}
+
+.ram{
+	font-size: 25px;
+	color: white;
+}
+
+#hello{
+	text-transform: uppercase;
+	color: yellow;	
+	font-size:25px;
+}
+
+li{ 
+	font-style: italic; 
+	text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+}
+
+.hari{
+	font-size: 25px;
+	color: white;
+	white-space: pre;
+	word-break: break-word;
+}
+
+#w3school{
+	height: 80px;
+	max-width: 20%;
+	background-image: url("w3schools.png");
+}
+
+#refer{
+	font-size: 25px;
+	color: black;
+}
+
+#info{
+	color: red;
+	font-size: 15px;
+}

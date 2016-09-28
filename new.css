@@ -1,0 +1,11 @@
+.img img{
+	width: 300px;
+	height: 300px;
+	margin: 5px;
+	padding: 10px;
+	border: 2px;
+}
+
+.desc{
+	text-align: center;
+}
