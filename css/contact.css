@@ -1,0 +1,81 @@
+body {
+  background-image: url("..//images/snow.jpg"); }
+
+.contact {
+  font-size: 75px;
+  position: relative;
+  color: white;
+  margin-left: 250px; }
+
+.info-home {
+  position: relative;
+  margin-left: 640px;
+  bottom: 173px; }
+
+.address {
+  font-size: 20px;
+  color: white;
+  white-space: pre; }
+
+.nav {
+  margin-left: 150px; }
+  .nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 150px;
+    overflow: hidden; }
+  .nav li {
+    float: left; }
+  .nav a, .nav .mywork {
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    margin: 30px;
+    color: #fff;
+    text-decoration: none; }
+  .nav a:hover {
+    color: #ff0; }
+  .nav .dropdown {
+    display: inline-block; }
+  .nav .drop {
+    display: none;
+    position: absolute;
+    color: white; }
+    .nav .drop a {
+      color: white;
+      text-align: left;
+      text-decoration: none;
+      display: block;
+      font-size: 20px;
+      position: relative;
+      bottom: 40px;
+      margin: 0px 0px 0px 33px; }
+    .nav .drop a:hover {
+      background-color: red; }
+  .nav .dropdown:hover .drop {
+    display: block; }
+
+.media {
+  margin-left: 550px;
+  display: inline-block;
+  position: relative;
+  bottom: 190px; }
+  .media .facebook {
+    margin: 50px; }
+  .media .youtube {
+    height: 64px;
+    width: 64px;
+    margin: 50px; }
+  .media .gmail {
+    margin: 50px; }
+
+.footer {
+  position: relative;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  top: 30px; }
+
+/*# sourceMappingURL=contact.css.map */

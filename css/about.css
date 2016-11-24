@@ -1,0 +1,99 @@
+body{
+	background-image: url("..//images/snow.jpg");
+}
+
+
+h1{  
+	color: red;
+	text-align: center;
+	font-size: 50px;	
+}		
+
+.me{
+	width: 280px;
+	height: 280px;
+	float: left;
+
+}
+.about{
+	position: relative;
+	bottom: 25px;
+}
+
+
+.para{
+	font-style: italic;
+	font-size: 30px;
+	color: white;
+}
+
+b{
+	color: #0f0;
+}
+
+
+
+	
+.nav ul{
+	list-style-type: none;
+	padding: 0px;
+	margin: 150px;
+    overflow: hidden;	
+}
+
+li{
+	float: left;
+	
+}
+
+li a, .mywork{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	padding: 5px;
+	margin: 30px;
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+li a:hover{
+	color: #ff0;
+}
+
+.footer{
+	position: relative;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	top: 30px;
+}
+
+.drop{
+	display: none;
+	position: absolute;
+	color: white;	
+}	
+
+.drop a{
+	color: white;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	position: relative;
+	bottom: 40px;
+	margin: 0px 0px 0px 33px;
+}
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown:hover .drop{
+	display: block;
+}
+
+.drop a:hover {
+	background-color: red;

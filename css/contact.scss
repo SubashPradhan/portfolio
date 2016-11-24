@@ -1,0 +1,103 @@
+body{
+	background-image: url('..//images/snow.jpg');
+}
+
+.contact{
+	font-size: 75px;
+	position: relative;
+	color: white;
+	margin-left: 250px;	
+}
+
+.info-home{
+	position: relative;
+	margin-left: 640px;
+	bottom: 173px;
+}
+
+.address{
+	font-size: 20px;
+	color: white;
+	white-space: pre;
+}
+
+.nav{
+	margin-left: 150px;
+	
+	ul{
+		list-style-type: none;
+		padding: 0px;
+		margin: 150px;
+		overflow: hidden;
+	}
+	li{
+		float: left;
+	}
+	a, .mywork{
+		display: inline-block;
+		text-align: center;
+		font-size: 30px;
+		padding: 5px;
+		margin: 30px;
+		color: #fff;
+		text-decoration: none;
+	}
+	a:hover{
+		color: #ff0;
+	}
+	.dropdown{
+		display: inline-block;
+	}
+	.drop{
+		display: none;
+		position: absolute;
+		
+		color: white;
+		a{
+			color: white;
+			text-align: left;
+			text-decoration: none;
+			display: block;
+			font-size: 20px;
+			position: relative;
+			bottom: 40px;
+			margin: 0px 0px 0px 33px;
+		}
+
+		a:hover {
+			background-color: red;
+		}
+	}
+	.dropdown:hover .drop{
+		display: block;
+	}
+}
+
+.media{
+	margin-left: 550px;
+	display: inline-block;
+	position: relative;
+	bottom: 190px;
+	
+	.facebook{
+		margin: 50px;
+	}
+	.youtube{
+		height: 64px;
+		width:  64px;
+		margin: 50px;
+	}
+	.gmail{
+		margin: 50px;
+	}
+}
+
+
+.footer{
+	position: relative;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	top: 30px;
+}
